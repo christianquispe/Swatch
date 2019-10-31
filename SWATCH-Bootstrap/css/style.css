@@ -1,0 +1,259 @@
+html, 
+body{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.img-card{
+    width: 200px;
+    margin-top: 10px;
+}
+
+.icon{
+    width: 50px;
+}
+/* .subtitle-2,
+.subtitle-3{
+    text-align: center;
+} */
+.navbar{
+    justify-content: flex-end;
+}
+
+.title{
+    padding: 5px 10px;
+}
+/* Banner */
+@media only screen and (max-width:768px){
+.carousel-img{
+    height: 50vh;
+    width: 100vw;
+    object-fit: cover;
+}
+}
+
+/* SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES */
+.services{
+    --text-color: #666666;
+}
+.section{
+    padding: 50px 0;
+}
+.circulo{
+    border-radius: 50%;
+}
+.description{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text-color{
+    color: var(--text-color);
+}
+@media only screen and (min-width:768px){
+    .services .col-md-6:nth-child(3){
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK OUR-WORK */
+.our-work{
+    background-color: #1BBC9B;
+}
+.our-work .subtitle-2{
+    color: #87F1DB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM OUR TEAM */
+
+.our-team{
+    background-color: #ED8783;
+}
+.our-team .subtitle-2,
+.our-team .subtitle-3,
+.our-team .subtitle-4{
+    color: #9C514E;
+}
+.our-team .card,
+.our-team .card-footer,
+.our-team .card-body{
+    background-color: #ED8783;
+    /* border: #ED8783; */
+}
+[class^="col-"]{
+    margin-bottom: 1em;
+}
+@media only screen and (min-width:768px){
+    .our-team .col-md-6:nth-child(3){
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .our-clients .col-md-4:nth-child(5),
+    .our-clients .col-md-4:nth-child(4)
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* .recent-news .row{
+        align-items: stretch
+    } */
+    .recent-news .col-md-6:nth-child(3){
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (min-width: 576px){
+    .our-clients .col-md-4:nth-child(5)
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 575px){
+    .our-clients [class^="col-"]
+    {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS RECENT NEWS  */
+.recent-news{
+    background-color: #ECC232;
+}
+
+.news-article-1{
+    background-color: #CB90E4;
+}
+
+.news-article-2{
+    background-color: #DB493A;
+    padding-bottom: 2em;
+}
+.news-article-3{
+    background-color: #4F5F80;
+    padding-top: 3em;
+}
+.recent-news .subtitle-2{
+    color: #F6E6B3; 
+}
+.borde-style{
+    background-color: #E84C3D;
+}
+.sentence{
+    background-color: #31415B;
+    padding: 3em 2em;
+    position: relative;
+}
+.sentence::before{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 80%;
+    width: 5px;
+    background-color: #4F5F80;
+    left: 10px;
+    bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/* OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS OUR-CLIENTS  */
+.our-clients{
+    background-color: #CA8FE3;
+}
+.our-clients .subtitle-2{
+    color: #FAEFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA GOT-IDEA  */
+.got-idea{
+    background-color: #31415B;
+}
+.got-idea .subtitle-2{
+    color: #9DA9C3;
+}
+.btn-primary{
+    background-color: #ED8783;
+    border: #ED8783;
+}
+.btn-primary:hover{
+    background-color: #9C514E;
+    border: #9C514E;
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+.footer{
+    background-color: #34495E;
+}
+.footer .subtitle-2{
+    color: #8A949E;
+}
+.footer .icon{
+    margin-right: 10px;
+}
